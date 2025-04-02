@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Fundo com gradiente */
+    color: #ffffff; /* Texto branco */
+    text-align: center; /* Centraliza os textos */
+    padding: 20px;
+}
+a{
+    color: #f18a8a;
+}
+a:hover{
+    color: #000000;
+    background-color: #ffcc00;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #ffcc00; /* Amarelo destacado */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    border: 4px solid #ffcc00; /* Borda amarela */
+    width: 150px; /* Mantém o tamanho */
+    height: 150px;
+    object-fit: cover; /* Ajusta a imagem dentro do círculo */
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00; /* Amarelo */
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #ffcc00;
+    margin: 30px auto;
+    width: 80%;
+}
+
+blockquote {
+    font-size: 1.1em;
+    font-style: italic;
+    border-left: 5px solid #ffcc00;
+    padding-left: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+
